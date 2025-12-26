@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+/* ===== GENERAL ===== */
+body {
+  background: #f2f6ff;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* ===== HEADER ===== */
+.hero {
+  background: linear-gradient(135deg, #4a5ef7, #62d4fa);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 { font-size: 2.5rem; font-weight: 600; }
+.hero p { font-size: 1.1rem; opacity: .9; }
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: white;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar .logo {
+  font-weight: 600;
+  color: #4A6CF7;
+  font-size: 1.2rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  color: #4A6CF7;
+}
+
+/* ===== CONTENT ===== */
+.content {
+  margin: 40px auto;
+  max-width: 1100px;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.7rem;
+  color: #4A6CF7;
+  font-weight: 600;
+}
+
+/* ===== CARDS ===== */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  text-decoration: none;
+  color: inherit;
+  transition: all .3s ease;
+}
+
+.card h3 { 
+  color: #4A6CF7; 
+  margin-bottom: 8px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+  background: white;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+/* ===== LOGO STYLE ===== */
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.logo-text {
+  font-weight: 600;
+  color: #614af7;
+  font-size: 1.2rem;
+}
+/* ===== GENERAL ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+  background: #f2f6ff;
+  color: #333;
+  line-height: 1.8;
+  padding-bottom: 60px;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(135deg, #4a6cf7, #6289fa);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  opacity: 0.9;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+  background: white;
+  padding: 10px 25px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+}
+
+nav a:hover {
+  color: #4a6cf7;
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  padding: 30px;
+}
+
+/* ===== HEADINGS ===== */
+h2, h3 {
+  margin: 20px 0 10px;
+  color: #4a6cf7;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* ===== TEXT & LIST ===== */
+p {
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+}
+
+ul, ol {
+  margin: 10px 0 15px 30px;
+}
+
+ul li, ol li {
+  margin-bottom: 5px;
+}
+
+/* ===== TABLE ===== */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table th {
+  background: #4a6cf7;
+  color: white;
+  padding: 12px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+  background: #f0f4ff;
+}
+
+/* ===== CODE BLOCK ===== */
+pre {
+  background: #212733;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: .95rem;
+}
+
+code {
+  font-family: "Courier New", monospace;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 15px;
+  color: #666;
+  background: white;
+  border-top: 1px solid #ddd;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  main {
+    padding: 20px;
+  }
+}
